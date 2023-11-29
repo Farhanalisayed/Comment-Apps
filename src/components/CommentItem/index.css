@@ -1,0 +1,66 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.the-cont {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  font-size: 16px;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.liked {
+  color: #0ea5e9;
+  font-size: 18px;
+  background-color: transparent;
+  border: 0px solid;
+}
+.like {
+  color: #7e858e;
+  font-size: 18px;
+  background-color: transparent;
+  border: 0px solid;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.btn1{
+  height: 20px;
+  width: 20px;
+  border:0px solid;
+}
+.img {
+  height: 20px;
+  width: 20px;
+}

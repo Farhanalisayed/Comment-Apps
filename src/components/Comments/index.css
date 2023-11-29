@@ -1,0 +1,64 @@
+/* Write your CSS here */
+*{
+  font-family:"Roboto";
+}
+.the-container {
+  display: flex;
+  flex-direction: column;
+}
+.upper-cont {
+  display: flex;
+  justify-content: space-between;
+}
+.lower-cont {
+  display: flex;
+  flex-direction: column;
+}
+.comment-details-cont{
+  display: flex;
+
+} 
+.count{
+  width:30px;
+  height:30px;
+  background-color: #0b69ff;
+  border-radius: 7px;
+  color:white;
+}
+.tag{
+  color:#64748b;
+  font-size:15px;
+}
+.text-cont {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  color: #1e293b;
+  font-size: 25px;
+}
+.para {
+  font-size: 15px;
+  color: #334155;
+}
+.bar {
+  border-radius: 2px;
+  border: 1px solid #475569;
+  font-size: 20px;
+}
+textarea {
+  border-radius: 2px;
+  border: 1px solid #475569;
+  font-size: 20px;
+}
+.btn {
+  background-color: #0b69ff;
+  color: white;
+  font-size: 15px;
+  border: 0px solid;
+}
+.image {
+  height: 150px;
+  width: 180px;
+  align-self: center;
+}
