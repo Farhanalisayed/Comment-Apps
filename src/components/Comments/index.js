@@ -37,8 +37,8 @@ class Comments extends Component {
     const {name, comment, commentDetails} = this.state
     const newComment = {
       id: uuidv4(),
-      theName: {name},
-      theComment: {comment},
+      theName: name,
+      theComment: comment,
     }
     const updatedComments = [...commentDetails, newComment]
     this.setState(previouseState => ({
